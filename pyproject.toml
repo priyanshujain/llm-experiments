@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llm-experiments"
+version = "0.1.0"
+description = ""
+authors = ["Priyanshu Jain <ipriyanshujain@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.188"
+pandas = "^2.0.2"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
